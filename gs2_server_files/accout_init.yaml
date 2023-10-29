@@ -1,0 +1,36 @@
+GS2TemplateFormatVersion: "2019-05-01"
+Description: GS2-AccountinitializetemplateVersion2010-06-26
+
+
+Globals:
+  Alias:
+    AccountNamespaceName: gacha_ns
+    KeyNamespaceAccountAuthentication: account-encryption-key-namespace
+    KeyAccountAuthentication: account-encryption-key
+
+
+Resources:
+  KeyNamespaceAccountAuthentication:
+    Type: GS2::Key::Namespace
+    Properties:
+      Name: ${KeyNamespaceAccountAuthentication}
+
+
+KeyAccountAuthentication:
+  Type: GS2::Key::Key
+  Properties:
+    NamespaceName: ${KeyNamespaceAccountAuthentication}
+    Name: ${KeyAccountAuthentication}
+  DependsOn:
+    - KeyNamespaceAccountAuthentication
+
+
+AccountNamespace:
+  Type: GS2::Account::Namespace
+  Properties:
+    Name: ${AccountNamespaceName}
+
+
+Outputs:
+  AccountNamespaceName: !GetAttrAccountNamespace.Item.Name
+  KeyAccountAuthenticationKeyId: !GetAttrKeyAccountAuthentication.Item.KeyId

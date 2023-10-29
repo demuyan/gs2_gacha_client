@@ -1,0 +1,195 @@
+{
+	"version": "2019-02-21",
+	"lotteryModels": [
+	  {
+		"lotteryModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:lottery:gacha_ns:lotteryModel:gacha_sushi_event_001",
+		"name": "gacha_sushi_event_001",
+		"mode": "normal",
+		"method": "prize_table",
+		"prizeTableName": "gacha_main"
+	  }
+	],
+	"prizeTables": [
+	  {
+		"prizeTableId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:lottery:gacha_ns:table:gacha_main",
+		"name": "gacha_main",
+		"prizes": [
+		  {
+			"prizeId": "gacha_main_001",
+			"type": "prize_table",
+			"acquireActions": [],
+			"prizeTableName": "gacha_star_1",
+			"weight": 1000
+		  },
+		  {
+			"prizeId": "gacha_main_002",
+			"type": "prize_table",
+			"acquireActions": [],
+			"prizeTableName": "gacha_star_2",
+			"weight": 800
+		  },
+		  {
+			"prizeId": "gacha_main_003",
+			"type": "prize_table",
+			"acquireActions": [],
+			"prizeTableName": "gacha_star_3",
+			"weight": 300
+		  },
+		  {
+			"prizeId": "gacha_main_004",
+			"type": "prize_table",
+			"acquireActions": [],
+			"prizeTableName": "gacha_star_4",
+			"weight": 100
+		  },
+		  {
+			"prizeId": "gacha_main_005",
+			"type": "prize_table",
+			"acquireActions": [],
+			"prizeTableName": "gacha_star_5",
+			"weight": 40
+		  }
+		]
+	  },
+	  {
+		"prizeTableId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:lottery:gacha_ns:table:gacha_star_1",
+		"name": "gacha_star_1",
+		"prizes": [
+		  {
+			"prizeId": "gacha_star_1_001",
+			"type": "action",
+			"acquireActions": [
+			  {
+				"action": "Gs2Inventory:AcquireSimpleItemsByUserId",
+				"request": "{\n  \"namespaceName\": \"gacha_ns\",\n  \"inventoryName\": \"sushi\",\n  \"userId\": \"#{userId}\",\n  \"acquireCounts\": [\n    {\n      \"itemName\": \"sushi_001\",\n      \"count\": 1\n    }\n  ]\n}"
+			  }
+			],
+			"weight": 100
+		  },
+		  {
+			"prizeId": "gacha_star_1_002",
+			"type": "action",
+			"acquireActions": [
+			  {
+				"action": "Gs2Inventory:AcquireSimpleItemsByUserId",
+				"request": "{\n  \"namespaceName\": \"gacha_ns\",\n  \"inventoryName\": \"sushi\",\n  \"userId\": \"#{userId}\",\n  \"acquireCounts\": [\n    {\n      \"itemName\": \"sushi_002\",\n      \"count\": 1\n    }\n  ]\n}"
+			  }
+			],
+			"weight": 100
+		  }
+		]
+	  },
+	  {
+		"prizeTableId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:lottery:gacha_ns:table:gacha_star_2",
+		"name": "gacha_star_2",
+		"prizes": [
+		  {
+			"prizeId": "gacha_star_2_001",
+			"type": "action",
+			"acquireActions": [
+			  {
+				"action": "Gs2Inventory:AcquireSimpleItemsByUserId",
+				"request": "{\n  \"namespaceName\": \"gacha_ns\",\n  \"inventoryName\": \"sushi\",\n  \"userId\": \"#{userId}\",\n  \"acquireCounts\": [\n    {\n      \"itemName\": \"sushi_003\",\n      \"count\": 1\n    }\n  ]\n}"
+			  }
+			],
+			"weight": 100
+		  },
+		  {
+			"prizeId": "gacha_star_2_002",
+			"type": "action",
+			"acquireActions": [
+			  {
+				"action": "Gs2Inventory:AcquireSimpleItemsByUserId",
+				"request": "{\n  \"namespaceName\": \"gacha_ns\",\n  \"inventoryName\": \"sushi\",\n  \"userId\": \"#{userId}\",\n  \"acquireCounts\": [\n    {\n      \"itemName\": \"sushi_007\",\n      \"count\": 1\n    }\n  ]\n}"
+			  }
+			],
+			"weight": 100
+		  },
+		  {
+			"prizeId": "gacha_star_2_003",
+			"type": "action",
+			"acquireActions": [
+			  {
+				"action": "Gs2Inventory:AcquireSimpleItemsByUserId",
+				"request": "{\n  \"namespaceName\": \"gacha_ns\",\n  \"inventoryName\": \"sushi\",\n  \"userId\": \"#{userId}\",\n  \"acquireCounts\": [\n    {\n      \"itemName\": \"sushi_008\",\n      \"count\": 1\n    }\n  ]\n}"
+			  }
+			],
+			"weight": 100
+		  },
+		  {
+			"prizeId": "gacha_star_2_004",
+			"type": "action",
+			"acquireActions": [
+			  {
+				"action": "Gs2Inventory:AcquireSimpleItemsByUserId",
+				"request": "{\n  \"namespaceName\": \"gacha_ns\",\n  \"inventoryName\": \"sushi\",\n  \"userId\": \"#{userId}\",\n  \"acquireCounts\": [\n    {\n      \"itemName\": \"sushi_009\",\n      \"count\": 1\n    }\n  ]\n}"
+			  }
+			],
+			"weight": 100
+		  }
+		]
+	  },
+	  {
+		"prizeTableId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:lottery:gacha_ns:table:gacha_star_3",
+		"name": "gacha_star_3",
+		"prizes": [
+		  {
+			"prizeId": "gacha_star_3_001",
+			"type": "action",
+			"acquireActions": [
+			  {
+				"action": "Gs2Inventory:AcquireSimpleItemsByUserId",
+				"request": "{\n  \"namespaceName\": \"gacha_ns\",\n  \"inventoryName\": \"sushi\",\n  \"userId\": \"#{userId}\",\n  \"acquireCounts\": [\n    {\n      \"itemName\": \"sushi_005\",\n      \"count\": 1\n    }\n  ]\n}"
+			  }
+			],
+			"weight": 100
+		  },
+		  {
+			"prizeId": "gacha_star_3_002",
+			"type": "action",
+			"acquireActions": [
+			  {
+				"action": "Gs2Inventory:AcquireSimpleItemsByUserId",
+				"request": "{\n  \"namespaceName\": \"gacha_ns\",\n  \"inventoryName\": \"sushi\",\n  \"userId\": \"#{userId}\",\n  \"acquireCounts\": [\n    {\n      \"itemName\": \"sushi_004\",\n      \"count\": 1\n    },\n    {\n      \"itemName\": \"sushi_010\",\n      \"count\": 1\n    }\n  ]\n}"
+			  }
+			],
+			"weight": 100
+		  }
+		]
+	  },
+	  {
+		"prizeTableId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:lottery:gacha_ns:table:gacha_star_4",
+		"name": "gacha_star_4",
+		"prizes": [
+		  {
+			"prizeId": "gacha_star_4_001",
+			"type": "action",
+			"acquireActions": [
+			  {
+				"action": "Gs2Inventory:AcquireSimpleItemsByUserId",
+				"request": "{\n  \"namespaceName\": \"gacha_ns\",\n  \"inventoryName\": \"sushi\",\n  \"userId\": \"#{userId}\",\n  \"acquireCounts\": [\n    {\n      \"itemName\": \"sushi_006\",\n      \"count\": 1\n    }\n  ]\n}"
+			  }
+			],
+			"weight": 100
+		  }
+		]
+	  },
+	  {
+		"prizeTableId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:lottery:gacha_ns:table:gacha_star_5",
+		"name": "gacha_star_5",
+		"prizes": [
+		  {
+			"prizeId": "gacha_star_5_001",
+			"type": "action",
+			"acquireActions": [
+			  {
+				"action": "Gs2Inventory:AcquireSimpleItemsByUserId",
+				"request": "{\n  \"namespaceName\": \"gacha_ns\",\n  \"inventoryName\": \"sushi\",\n  \"userId\": \"#{userId}\",\n  \"acquireCounts\": [\n    {\n      \"itemName\": \"sushi_001\",\n      \"count\": 1\n    },\n    {\n      \"itemName\": \"sushi_005\",\n      \"count\": 1\n    },\n    {\n      \"itemName\": \"sushi_006\",\n      \"count\": 1\n    }\n  ]\n}"
+			  }
+			],
+			"weight": 100
+		  }
+		]
+	  }
+	]
+  }

@@ -1,0 +1,62 @@
+{
+	"version": "2019-02-05",
+	"inventoryModels": [],
+	"simpleInventoryModels": [
+	  {
+		"inventoryModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi",
+		"name": "sushi",
+		"simpleItemModels": [
+		  {
+			"itemModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi:item:sushi_001",
+			"name": "sushi_001",
+			"metadata": "name=まぐろ"
+		  },
+		  {
+			"itemModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi:item:sushi_002",
+			"name": "sushi_002",
+			"metadata": "name=サーモン"
+		  },
+		  {
+			"itemModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi:item:sushi_003",
+			"name": "sushi_003",
+			"metadata": "name=うなぎ"
+		  },
+		  {
+			"itemModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi:item:sushi_004",
+			"name": "sushi_004",
+			"metadata": "name=たまご"
+		  },
+		  {
+			"itemModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi:item:sushi_005",
+			"name": "sushi_005",
+			"metadata": "name=中トロ"
+		  },
+		  {
+			"itemModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi:item:sushi_006",
+			"name": "sushi_006",
+			"metadata": "name=大トロ"
+		  },
+		  {
+			"itemModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi:item:sushi_007",
+			"name": "sushi_007",
+			"metadata": "name=あじ"
+		  },
+		  {
+			"itemModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi:item:sushi_008",
+			"name": "sushi_008",
+			"metadata": "name=たい"
+		  },
+		  {
+			"itemModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi:item:sushi_009",
+			"name": "sushi_009",
+			"metadata": "name=ひらめ"
+		  },
+		  {
+			"itemModelId": "grn:gs2:ap-northeast-1:NTdMeTuo-gacha_example:inventory:gacha_ns:simple:model:sushi:item:sushi_010",
+			"name": "sushi_010",
+			"metadata": "name=カッパ巻き"
+		  }
+		]
+	  }
+	]
+  }
