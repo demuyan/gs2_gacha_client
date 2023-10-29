@@ -1,0 +1,1 @@
+# gs2_gacha_client
